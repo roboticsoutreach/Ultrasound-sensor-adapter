@@ -54,21 +54,43 @@ Text GLabel 3250 2650 2    50   Input ~ 0
 GND
 Text GLabel 3650 3400 1    50   Input ~ 0
 VCC
-$Comp
-L Device:C C1
-U 1 1 5CEDA2E0
-P 3650 3550
-F 0 "C1" H 3765 3596 50  0000 L CNN
-F 1 "10n" H 3765 3505 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 3400 50  0001 C CNN
-F 3 "~" H 3650 3550 50  0001 C CNN
-	1    3650 3550
-	1    0    0    -1  
-$EndComp
 Text GLabel 3650 3700 3    50   Input ~ 0
 GND
 Text Notes 3850 3150 0    50   ~ 0
 0.1in header\n
 Text Notes 2950 3100 0    50   ~ 0
 Screw\n
+$Comp
+L Device:CP C1
+U 1 1 5CEEADC1
+P 3650 3550
+F 0 "C1" H 3768 3596 50  0000 L CNN
+F 1 "CP" H 3768 3505 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 3688 3400 50  0001 C CNN
+F 3 "~" H 3650 3550 50  0001 C CNN
+	1    3650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CFC0332
+P 4150 3550
+F 0 "H1" H 4250 3596 50  0000 L CNN
+F 1 "MountingHole" H 4250 3505 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad" H 4150 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+	1    4150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CFC038E
+P 4150 3750
+F 0 "H2" H 4250 3796 50  0000 L CNN
+F 1 "MountingHole" H 4250 3705 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad" H 4150 3750 50  0001 C CNN
+F 3 "~" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
