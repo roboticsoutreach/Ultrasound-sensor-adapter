@@ -77,7 +77,7 @@ U 1 1 5CFC0332
 P 4150 3550
 F 0 "H1" H 4250 3596 50  0000 L CNN
 F 1 "MountingHole" H 4250 3505 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad" H 4150 3550 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 4150 3550 50  0001 C CNN
 F 3 "~" H 4150 3550 50  0001 C CNN
 	1    4150 3550
 	1    0    0    -1  
@@ -88,7 +88,7 @@ U 1 1 5CFC038E
 P 4150 3750
 F 0 "H2" H 4250 3796 50  0000 L CNN
 F 1 "MountingHole" H 4250 3705 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad" H 4150 3750 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 4150 3750 50  0001 C CNN
 F 3 "~" H 4150 3750 50  0001 C CNN
 	1    4150 3750
 	1    0    0    -1  
