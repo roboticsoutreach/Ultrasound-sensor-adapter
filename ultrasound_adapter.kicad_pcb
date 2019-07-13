@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 16)
     (tracks 12)
     (zones 0)
     (modules 5)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/r1.0/"))
   )
 
   (net 0 "")
@@ -390,6 +390,12 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.6 5.6) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Ultrasound adapter" (at 107.9 143.9) (layer F.Mask)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text r1.0 (at 103.8 141.8) (layer F.Mask)
+    (effects (font (size 2 2) (thickness 0.4)))
+  )
   (gr_arc (start 118 143) (end 118 145) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 120 143) (end 120 102) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 118 102) (end 120 102) (angle -90) (layer Edge.Cuts) (width 0.15))
@@ -434,7 +440,7 @@
   (segment (start 109.73 121.23) (end 112.5 124) (width 0.75) (layer B.Cu) (net 4))
   (segment (start 105 121.23) (end 109.73 121.23) (width 0.75) (layer B.Cu) (net 4))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D29E101) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -532,7 +538,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D29E0FE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
